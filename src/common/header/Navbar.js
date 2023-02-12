@@ -13,33 +13,33 @@ const Navbar = () => {
                               Categories <i className="fa fa-chevron-down"></i>
                           </h4> 
                   </div>
-                  <div className="navlink">
+                  <div className="navLink">
                       <ul className={MobileMenu ? "nav-links-MobileMenu" : "link f_flex capitalize"}
                           onClick={()=>setMobileMenu(false)}>
-                          <ul>
+                          <li>
                               <Link to='/'>home</Link>
-                          </ul>
-                          <ul>
+                          </li>
+                          <li>
                               <Link to='/pages'>pages</Link>
-                          </ul>
-                          <ul>
+                          </li>
+                          <li>
                               <Link to='/user'>user account</Link>
-                          </ul>
-                          <ul>
+                          </li>
+                          <li>
                               <Link to='/vendor'>vendor account</Link>
-                          </ul>
-                          <ul>
+                          </li>
+                          <li>
                               <Link to='/track'>track my order</Link>
-                          </ul>
-                          <ul>
+                          </li>
+                          <li>
                               <Link to='/contact'>contact</Link>
-                          </ul>
+                          </li>
                       </ul>
                       <button className='toggle' onClick={()=> setMobileMenu(!MobileMenu)}>
                           {
                               MobileMenu ?
                                   <i className="fas fa-times close home-bth"></i> :
-                                  <i className="fas fa-bars open"></i>
+                                  <i className="fa-solid fa-bars open"></i>
                           }
                       </button>
                   </div>

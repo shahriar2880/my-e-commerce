@@ -14,8 +14,9 @@ const Head = () => {
                   <div className="right row RText">
                       <label>Theme FAQ's</label>
                       <label>Need Helps</label>
-                      <i className='fa fa-'></i>
+                      <i className='fa-flag'></i>
                       <label>EN</label>
+                      <i className="fa-flag"></i>
                       <label>USD</label>
                   </div>
               </div>
